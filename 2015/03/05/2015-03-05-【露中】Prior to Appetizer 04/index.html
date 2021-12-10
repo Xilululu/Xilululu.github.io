@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.png">
+  <link rel="mask-icon" href="/images/logo.png" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"xilululu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="开学前最后一更  本章少女心爆表警告【。】  元宵快乐~之前的肉文放后面写吧【。】  写程序是个挺枯燥的事情，尽管它挺简单。难的是选择算法、还有建模的过程，在那之后，只是一个依照设计图搭积木的体力活罢">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Prior to Appetizer 04">
+<meta property="og:url" content="https://xilululu.github.io/2015/03/05/2015-03-05-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Prior%20to%20Appetizer%2004/index.html">
+<meta property="og:site_name" content="逐日者">
+<meta property="og:description" content="开学前最后一更  本章少女心爆表警告【。】  元宵快乐~之前的肉文放后面写吧【。】  写程序是个挺枯燥的事情，尽管它挺简单。难的是选择算法、还有建模的过程，在那之后，只是一个依照设计图搭积木的体力活罢">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2015-03-04T21:50:04.000Z">
+<meta property="article:modified_time" content="2021-12-02T14:54:21.380Z">
+<meta property="article:author" content="夕露">
+<meta property="article:tag" content="APH">
+<meta property="article:tag" content="露中">
+<meta property="article:tag" content="普洪">
+<meta property="article:tag" content="Prior to Appetizer">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://xilululu.github.io/2015/03/05/2015-03-05-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Prior%20to%20Appetizer%2004/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Prior to Appetizer 04 | 逐日者</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="逐日者" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+  </script>
+  
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">逐日者</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">Sunchaser</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">16</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">1</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">108</span></a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+  <a role="button" class="book-mark-link book-mark-link-fixed"></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2015/03/05/2015-03-05-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Prior%20to%20Appetizer%2004/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Prior to Appetizer 04
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2015-03-05 06:50:04" itemprop="dateCreated datePublished" datetime="2015-03-05T06:50:04+09:00">2015-03-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>4.9k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>9 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>开学前最后一更</p> 
+<p>本章少女心爆表警告【。】</p> 
+<p>元宵快乐~之前的肉文放后面写吧【。】</p> 
+<p>写程序是个挺枯燥的事情，尽管它挺简单。难的是选择算法、还有建模的过程，在那之后，只是一个依照设计图搭积木的体力活罢了。</p> 
+<p>王耀在一阵细密的键盘声后伸了个懒腰，揉揉有些酸疼的后背，以及微微发酸的眼睛。</p> 
+<p>四周静悄悄的，一盏孤灯在他头顶把光降下，没想到那么嘈杂又忙碌的餐厅能在深夜换上这种睡姿。大玻璃窗之后的夜幕是深蓝色，接近墨色的深蓝，在城市里不多见。</p> 
+<p>他没有听音乐工作的习惯，与之相反，他更偏爱声音消失的环境。安静可以包裹住他，没有任何东西能带走注意力，最适合消耗注意力的搭积木过程。</p> 
+<p>一旦将精神集中到指尖，他就需要更长时间把自己从字母和数字的世界拉出来。每次能再次听到四周的声音时，王耀感觉就像做了一个长梦，面对密密麻麻的屏幕，几乎都不敢相信这是自己打出来的。同时精神累得不行，松松垮垮的像没揉好的面团。</p> 
+<p>所以他的休息时间也会特别长，用胡思乱想给自己一些时间恢复状态。但又能干什么呢？弗朗西斯知道他的习惯，早就到厨房后面的小房间休息去了，连点安慰他的小夜宵都没留下。</p> 
+<p>笔电旁有一沓纸，弗朗西斯在开始工作前扔给他的，算是网站的初期设计稿，包括外卖界面的设计和要求。他拿起来翻了几页，充斥着意大利人和法国人为了艺术效果而堆叠的色块和线条，还很粗糙，他也看不懂，于是干脆直接跳到了自己需要参阅的外卖界面。</p> 
+<p>菜单，价格，姓氏，地址，参考时间，付款方式……没什么特别的，但出于认真的天性，他读了两遍。</p> 
+<p>这次有收获。姓氏……姓氏写在那里是什么用的？</p> 
+<p>方便称呼吧？他马上又回答给自己听。</p> 
+<p>只问姓氏是一种礼节，不会侵犯到他人的自我空间，又能完整而充满尊敬的称呼一个人。但感觉真是太冰凉了，也……太省事了。姓氏毕竟是很多人所共有的东西，说出口时像堵墙一样划出一个界限。</p> 
+<p>界限的另一边往往代表着更亲密的关系，比如朋友，比如……</p> 
+<p>也许可以建议弗朗西斯把姓氏改成姓名？王耀单手托腮，对着那张设计稿继续发散思维。</p> 
+<p>改成姓名又怎么样？王耀，你想知道谁的名字呢？</p> 
+<p>心里默问了一句，他看到黑色的屏幕里自己挑了挑眉。</p> 
+<p>那真是个温暖的梦境——似乎很久，或是从未没有，有人这么亲昵的对待过他。头发，额头，鼻尖，手背，柔软的触感里偶尔混入一点湿漉漉的气息。他也不知道那到底是抚摸还是亲吻，只感觉到视线里是暖融融的白光，比冬天里晒太阳还舒服。</p> 
+<p>可醒来的感觉并不那么舒服就是了。深夜工作让人困倦，他不知道自己是什么时候趴倒在屏幕前的，醒来时手臂阵阵发麻。夏天的黎明有种微妙的凉爽，再热一度便会有热气上浮，再凉一些就该感冒了。他拉拉自己的衬衣，从座位上站起来去找早饭。</p> 
+<p>从冰箱里偷出几个鸡蛋，王耀挽着袖子思考该如何处置他们，荷包蛋吐司蛋白煮蛋葱油蛋饼果酱松饼还是蛋包饭？哦，这里的厨房很少备着白饭，他略带不满地皱眉。</p> 
+<p>正思考着，有人可以替他做决定了：“早上好……准备做早饭？”弗朗西斯揉着乱糟糟的头发从一扇小门里出来，胡茬还没刮，也是一副熬夜的样子。</p> 
+<p>“嗯。”他支吾着，随口问了句，“做什么好？”</p> 
+<p>“什么都不用做，待会儿安东尼会送面包过来。”他打着哈欠，“否则我这么早爬起来做什么？”</p> 
+<p>“我不喜欢吃面包。”王耀皱眉回答。他喜欢馒头，蒸的更健康些。</p> 
+<p>“挑食的小馋鬼，”弗朗西斯立马笑了，惯着孩子一样揉了揉王耀的头发：“那是你还没尝过刚出炉的面包。我会给你准备蓝莓果酱的，现在去洗个澡吧。”</p> 
+<p>刚睡醒的两个人都有些迷糊，王耀没注意到那个动作，自顾自耸肩：“没带衣服。”</p> 
+<p>“随便套件T恤啦，衣柜就在房间里面，你知道的。”</p> 
+<p>“哦。”王耀往房间走去，拉开小门的时候回头叮嘱了句，“给我搞杯咖啡，困死了……”</p> 
+<p>弗朗西斯朝身后摆摆手表示听见了，没回头。估摸着离安东尼奥送面包来还要些时间，他把正门的锁开了，然后钻到厨房里找咖啡机。</p> 
+<p>正热着牛奶，他听见木门熟悉的发出吱哑的开门声，叫了句“在厨房外等着，安东尼。”然后继续专注于手里的活计。</p> 
+<p>可来者偏不安静，指骨在外面的吧台上敲了几下，对于安静得只有牛奶咕噜冒泡的早上来说，这声音足够大了。这绝对不是安东，弗朗西斯只好关了火，到外面看看访客是谁。</p> 
+<p>他觉得来的人有些眼熟，白金色头发很大一只站在吧台前面，正抬着头看吧台上面倒挂的杯子。专注的看这种无用的装饰并且眨眼，那是孩童的举动，放在这个成年人身上却也并不尴尬，反而将他长长的睫毛清晰的展示出来。</p> 
+<p>是个还过得去的小伙，弗朗西斯习惯性的想，他喜欢这种视觉上的享受——这么一来他突然想到自己第一次见到王耀时给出的评价，美人儿，当然说出口就挨了一拳头——但他又不是挑模特的，这孩子早上来这里干什么？</p> 
+<p>“请问需要什么吗？我们这里早上不供应早餐。”他也敲敲吧台，把年轻人的注意力吸引过来。</p> 
+<p>“啊，不、不好意思。”他有点慌乱，手赶紧从吧台上收了下来，缩到身后看不到的地方。大概有些紧张，弗朗西斯想。</p> 
+<p>紧张的原因或许是因为即将提出口的问题。来者继续眨着深紫色的眼眸，苍白的皮肤下有些富有生命力的颜色显透出来：“那，那个，有些唐突……”</p> 
+<p>像个情窦初开的少年，弗朗西斯眼光里带上了更多暧昧，从容地收起手抱臂等他会说出什么。</p> 
+<p>他的语速挺快，却支支吾吾地不能一口气全说出来：“请，请你告诉我，昨天端出Shepherd's Pie的那个人，就是黑色头发的那个人，他的名字……名字是什么？”</p> 
+<p>伊万最近非常弄不懂自己。</p> 
+<p>他以为不停地吃M记已经是自己反常行为的顶峰了，后来发现不是。更反常的是他竟然在周末的早晨早起了一次，打开冰箱发现没有早饭后自然而然地抓起外套出门，然后随便拐了几个弯，就站在了昨天那家法餐餐厅的木门前。</p> 
+<p>明明根本不记得地址，他是怎么找到的？伊万眨眨眼，抬头看餐厅简单的招牌，Appetizer？</p> 
+<p>可他就是要命的找到了，虽然里面还没任何人出现，虽然整条街上都静悄悄的，可他就是站在这儿，腹中空空地来找寻一个秘密。</p> 
+<p>伊万抬步向前走，不抱希望地试着推了推门。木门一开始抵抗了会儿，在他准备缩回手时，却为他开了条小缝。</p> 
+<p>毫无准备地推门进去，仍旧空荡荡的没有人，他还以为店主是忘记锁门了，店内就有声叫喊传出来：“在厨房外等着，安东尼。”</p> 
+<p>门大概不是为他而开，只是他正好闯了进来。伊万有些无措地敲敲桌，可下手之后又发觉自己这么做没什么意义，把厨房里的人叫出来，然后呢？他是不是要准备一个来这里的理由？</p> 
+<p>吧台是仿酒吧的样式，倒挂的酒杯在晨光里折射出光彩。他莫名地挺喜欢这东西，大概是这种装饰画一样的场景可以让人心安。</p> 
+<p>店主的出现打破了这种平静，他支支吾吾地想找一个问题，身体就不由自主地发出疑问——那男生叫什么？或许叫男生太没礼貌了些，他可以称呼他为“那个人”。说出口他才知道，自己想知道答案很久了。</p> 
+<p>或许今天就是为了这个答案而来的。</p> 
+<p>店主顶着还有些散乱的金发，抱臂微笑地看着他，眼神里透露出的东西和昨天伊丽莎白说的话有过之而无不及。伊万真怕他也和伊丽莎白一样会随便推测出什么，赶紧开口：“我，我不是有什么意思，我只是想认……”</p> 
+<p>“哦哦，我知道的，小伙子！”店主却突然打断他，抬起手摆了摆，说明自己不会想歪，“这个话题我们可以坐下来慢慢说。你是不是还没吃早饭？现在对于休息日来说还有点早呢。”</p> 
+<p>“啊，是，是的……”伊万被这么一提醒才觉得胃里难受极了，灼烧感并不好受。</p> 
+<p>弗朗西斯指指吧台边靠近窗户的桌子：“那么坐在那儿等一会，我们一起吃个早餐吧，免费的哦。”</p> 
+<p>伊万怎么好意思接受这种礼物：“不用了，我是说，谢谢……我只是想知道……”</p> 
+<p>“他也在。”餐厅的主人狡黠地眨眨眼，“你不想和他一起吃个早餐吗？”</p> 
+<p>接着他满意地观察到客人的耳朵变红了。方法有效，弗朗西斯直接转身进了厨房，让客人自己纠结去。</p> 
+<p>伊万满怀不安地慢慢坐下，又把脸埋在手里叹气。他并不明白自己到这儿是为了什么，他还是不觉得自己喜欢那个黑头发的小伙子，只是很感兴趣罢了——那为什么周围的人全都把他当做一个追求者或被追求者看待？他的确很想见见他，或者这么说，每天都想见到，甚至，觉得他很可爱，想舔一舔……</p> 
+<p>直觉告诉他不要再想下去了。</p> 
+<p>他赶紧抬起头来，想照照太阳找回些理智——结果面前就是刚刚想着的人。王耀疑惑地看着他，同时用毛巾擦着自己的头发，发尖还在滴水。</p> 
+<p>伊万觉得自己的脑袋乱得要爆炸了。那个、那个店长，把他留下来，就是为了让他看到这样的画面？</p> 
+<p>两个人都不知道谁先开口比较好，伊万还是想开口问刚刚的问题：“请问……”</p> 
+<p>“弗朗西斯！”一个带着阳光气味的声音闯进餐厅里，伊万忽然有些感激，“新鲜出炉的面包来啦——啊，人不在？那门怎么开着……哦原来王耀你在啊，早上好！”</p> 
+<p>伊万看到面前的人转过头去，而自己呆愣愣的，他听见了？</p> 
+<p>“弗朗西斯在厨房里，”王耀微笑着回答，“你直接去找他吧。”</p> 
+<p>“好嘞！”安东尼奥扛着一堆面包走了。王耀回头看着这位清晨拜访的客人，“你……”</p> 
+<p>伊万没有听完王耀的话，他只是急着想确认一遍：“我，我刚刚是想问……”</p> 
+<p>“招待不周真抱歉！”又有一个声音撞进对话里。弗朗西斯端着两杯冒着热气的咖啡，还有一盘两个人都不认识的东西突然又出现在餐厅里，“两杯Au Lait，一份Churros！你们先吃，我去应付一下安东尼奥那家伙。啊，Churros是安东尼请你们的，巧克力酱找不到了，将就一下。”他把东西放下又急匆匆地往回走。伊万还来不及去想那是什么甜点，准备继续问题，却又被打断。</p> 
+<p>弗朗西斯突然停在厨房门口回头，没头没脑地来了一句：“对了。王耀，衣服有点大吧？”他看着伊万，期待这个客人会是什么反应。</p> 
+<p>果不其然，他发现他的手收成了拳。是个会胡思乱想的孩子，弗朗西斯偷笑了会儿。</p> 
+<p>王耀回答这个问题可是百般不情愿的：“那当然有点大啦，怎么？”</p> 
+<p>“没什么没什么，你们继续，继续。”弗朗西斯笑着退到厨房里。</p> 
+<p>“真是的，想炫耀他高吗……”王耀揉着脑袋转回头，看到了一脸奇怪表情的布拉金斯基先生，“你难道是弗朗西斯的朋……”</p> 
+<p>“我叫伊万&middot;布拉金斯基。请问你，你的名字是不是王耀？”伊万直视王耀的眼睛，这大概是他们第一次对视，他带着不知道是哪来的勇气和不甘心，一鼓作气地说出名字，以及交换名字的请求。</p> 
+<p>而那两杯热腾腾的咖啡隔在他们之间，冒着热气儿宣告这个接近夏末的早晨开始了。</p> 
+<p>【TBC】</p> 
+<p>用了一个寒假终于让他们知道对方的名字了我这个拖延小能手【，】</p> 
+<p>Au Lait是欧蕾咖啡……杯子很大嗯，一半牛奶一半咖啡大概挺适合不太喝咖啡的老王……而且感觉就算是夏天早上喝冰的对胃不好……</p> 
+<p>Churros是吉拿果，西班牙的早点小吃，好吧我承认我没吃过【。】但是看起来做着应该挺简单的，可以蘸巧克力酱或者冰淇淋吃~</p> 
+<p>我想吃蛋包饭【重点呢】</p> 
+<p>开学后更新看运气了~如果有动力也许会写的欢脱些…啊希望，希望别坑【。】</p>
+
+<hr>
+<p><code>2015-03-05 07:02:18</code> 【R】 人生恋爱导师法叔坏心眼好助攻hhhhhh！！摸头那一节好爱&gt;///&lt;   </p>
+<p>露熊好青涩又纯情那&gt;///&lt;</p>
+<p><code>2015-03-05 07:10:34</code> 【逐日者】 回复【R】 对我也爱摸头/////好想被法叔宠溺地摸摸头////【作为一个露厨的节操呢】</p>
+<p><code>2015-03-05 15:16:54</code> 【浅唱幸福】 萌的肝都颤了【露熊太萌了怎么破，默默捂脸痴汉ing</p>
+<p><code>2015-03-05 16:12:18</code> 【逐日者】 诶嘿XD谢谢~</p>
+<p><code>2015-03-05 16:12:40</code> 【逐日者】 回复【浅唱幸福】 噗23333谢谢喜欢~</p>
+<p><code>2015-03-06 05:02:13</code> 【边界线.】 想看舔舔舔（。</p>
+<p><code>2015-03-06 18:23:49</code> 【露熊d围巾】 这只露熊太软了~~~好想欺负到哭【→_→</p>
+<p><code>2015-03-07 00:41:38</code> 【逐日者】 回复【露熊d围巾】 伊万不是拿来欺负是拿来疼爱的啊！【不】</p>
+<p><code>2015-03-07 02:37:05</code> 【露熊d围巾】 回复【逐日者】 欺负完以后再疼爱(≧∇≦)</p>
+<p><code>2015-03-07 08:10:34</code> 【Gotersdog】 （颤抖着）可爱……超级可爱！露熊可爱得简直了！！！^qqqq^</p>
+<p><code>2015-05-17 09:28:47</code> 【宪】 想舔一舔=_=，放开那只王耀！！！少主只有我可以舔！！！我舔的次数绝对比你多！！！(っ╥╯﹏╰╥c)</p>
+<p><code>2015-06-06 09:58:59</code> 【余洲】 所以露只是斯托卡（x</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/APH/" rel="tag"># APH</a>
+              <a href="/tags/%E9%9C%B2%E4%B8%AD/" rel="tag"># 露中</a>
+              <a href="/tags/%E6%99%AE%E6%B4%AA/" rel="tag"># 普洪</a>
+              <a href="/tags/Prior-to-Appetizer/" rel="tag"># Prior to Appetizer</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2015/02/27/2015-02-27-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Prior%20to%20Appetizer%2003/" rel="prev" title="Prior to Appetizer 03">
+      <i class="fa fa-chevron-left"></i> Prior to Appetizer 03
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2015/03/31/2015-03-31-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Orange/" rel="next" title="Orange">
+      Orange <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+    <div class="comments" id="gitalk-container"></div>
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="夕露"
+      src="/images/avatar.JPG">
+  <p class="site-author-name" itemprop="name">夕露</p>
+  <div class="site-description" itemprop="description">I always have another story to tell.</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">108</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/Xilululu" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;Xilululu" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:lulumsw@outlook.com" title="E-Mail → mailto:lulumsw@outlook.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/u/5515857036" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;u&#x2F;5515857036" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/xilululu_rochu" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;xilululu_rochu" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://xilurc.lofter.com/" title="Lofter → https:&#x2F;&#x2F;xilurc.lofter.com&#x2F;" rel="noopener" target="_blank"><i class="fas fa-blog fa-fw"></i></a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fas fa-lemon"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xilu</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">368k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">11:09</span>
+</div>
+
+<!--
+-->
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+<script src="/js/bookmark.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '991443193dc5683b7cda',
+      clientSecret: 'dc4fb03ae30a656a2154a09f94fedd560dfaaba3',
+      repo        : 'Xilululu.github.io',
+      owner       : 'Xilululu',
+      admin       : ['Xilululu'],
+      id          : '64cc3faa8e6147c09839e75e2c2704d8',
+        language: 'zh-CN',
+      distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
+
+</body>
+</html>

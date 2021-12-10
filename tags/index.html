@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xilululu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"xilululu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="I always have another story to tell.">
@@ -28,7 +28,7 @@
 <meta property="og:description" content="I always have another story to tell.">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-12-10T08:50:23.000Z">
-<meta property="article:modified_time" content="2021-12-10T08:50:23.236Z">
+<meta property="article:modified_time" content="2021-12-10T11:02:48.202Z">
 <meta property="article:author" content="夕露">
 <meta property="article:tag" content="blog, Aph, Rochu, Xilu">
 <meta name="twitter:card" content="summary">
@@ -111,6 +111,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -132,19 +133,51 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">16</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">1</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">1</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">108</span></a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -188,7 +221,15 @@
       
       
       <div class="post-body">
-          
+          <div class="tag-cloud">
+            <div class="tag-cloud-title">
+              目前共计 16 个标签
+            </div>
+            <div class="tag-cloud-tags">
+              <a href="/tags/APH/" style="font-size: 30px; color: #111">APH</a> <a href="/tags/Fall-in-Love-with-Me/" style="font-size: 16.5px; color: #9d9d9d">Fall in Love with Me</a> <a href="/tags/Hand-Hold/" style="font-size: 15px; color: #adadad">Hand Hold</a> <a href="/tags/Libertango/" style="font-size: 12px; color: #ccc">Libertango</a> <a href="/tags/Lovestruck/" style="font-size: 13.5px; color: #bcbcbc">Lovestruck</a> <a href="/tags/Prior-to-Appetizer/" style="font-size: 22.5px; color: #5f5f5f">Prior to Appetizer</a> <a href="/tags/ichu/" style="font-size: 19.5px; color: #7e7e7e">ichu</a> <a href="/tags/rabi%E6%9C%9D/" style="font-size: 18px; color: #8e8e8e">rabi朝</a> <a href="/tags/%E5%8F%8C%E9%9C%B2%E4%B8%AD/" style="font-size: 15px; color: #adadad">双露中</a> <a href="/tags/%E5%9D%91/" style="font-size: 21px; color: #6f6f6f">坑</a> <a href="/tags/%E6%88%91%E6%B5%81%E3%81%AE%E8%99%90%E4%B8%89%E5%8D%81%E9%A2%98/" style="font-size: 16.5px; color: #9d9d9d">我流の虐三十题</a> <a href="/tags/%E6%99%AE%E6%B4%AA/" style="font-size: 24px; color: #4f4f4f">普洪</a> <a href="/tags/%E7%9F%AD%E7%AF%87/" style="font-size: 27px; color: #303030">短篇</a> <a href="/tags/%E8%82%89/" style="font-size: 12px; color: #ccc">肉</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 25.5px; color: #404040">随笔</a> <a href="/tags/%E9%9C%B2%E4%B8%AD/" style="font-size: 28.5px; color: #212121">露中</a>
+            </div>
+          </div>
+        
       </div>
       
       
@@ -203,7 +244,6 @@
 
           </div>
           
-    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -265,13 +305,21 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">108</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">标签</span>
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -318,19 +366,19 @@
   <span class="with-love">
     <i class="fas fa-lemon"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">夕露</span>
+  <span class="author" itemprop="copyrightHolder">Xilu</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">2k</span>
+    <span title="站点总字数">368k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">11:09</span>
 </div>
 
 <!--
@@ -394,6 +442,10 @@
 
 
 
+  
+<script src="/js/local-search.js"></script>
+
+
 
 
 
@@ -409,25 +461,6 @@
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '991443193dc5683b7cda',
-      clientSecret: 'dc4fb03ae30a656a2154a09f94fedd560dfaaba3',
-      repo        : 'Xilululu.github.io',
-      owner       : 'Xilululu',
-      admin       : ['Xilululu'],
-      id          : 'f47af1d1eda4d807b02bba32be15120b',
-        language: 'zh-CN',
-      distractionFreeMode: false
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
 
 </body>
 </html>

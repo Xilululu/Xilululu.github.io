@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"xilululu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"xilululu.github.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":5,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="I always have another story to tell.">
@@ -108,6 +108,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -129,19 +130,51 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">2</span></a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签<span class="badge">16</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类<span class="badge">1</span></a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">1</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">108</span></a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -166,7 +199,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2013/06/28/2013-06-28-%E3%80%90%E7%8B%AC%E4%BC%8A%E3%80%91To%20the%20Beginning%E3%80%902013.6%E3%80%91/">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2018/09/17/2018-09-17-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%8B%EF%BC%89/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.JPG">
@@ -180,7 +213,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2013/06/28/2013-06-28-%E3%80%90%E7%8B%AC%E4%BC%8A%E3%80%91To%20the%20Beginning%E3%80%902013.6%E3%80%91/" class="post-title-link" itemprop="url">To the Beginning</a>
+            <a href="/2018/09/17/2018-09-17-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%8B%EF%BC%89/" class="post-title-link" itemprop="url">Psalm·诗篇（下）</a>
         </h2>
 
         <div class="post-meta">
@@ -190,7 +223,7 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2013-06-28 05:58:33" itemprop="dateCreated datePublished" datetime="2013-06-28T05:58:33+09:00">2013-06-28</time>
+              <time title="创建时间：2018-09-17 09:48:27" itemprop="dateCreated datePublished" datetime="2018-09-17T09:48:27+09:00">2018-09-17</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
@@ -199,6 +232,15 @@
                 <span class="post-meta-item-text">更新于</span>
                 <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
               </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
 
           <br>
             <span class="post-meta-item" title="本文字数">
@@ -206,7 +248,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>1.6k</span>
+              <span>1.7k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -225,22 +267,963 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          从车身里弯腰出来，帽檐敲在车窗边有了皱褶，我略微带着抱怨地整理衣着，按下了面前这栋公寓的门铃。
+          成功在回去之前搞定了黑历史No.0（在候机大厅打出这行字）
 
-三下不轻不重的铃声，主人稍快而不带慌张的脚步声马上被招了来，一个金发背头的青年打开门，“你好，我是……”我急忙摘下帽子自我介绍。
+韩剧高潮要来了！
 
-可他打断了我的话，“我知道，请进。”
 
-这户主人是个沉默而严谨的人，屋内的摆设都很简单有序，几乎没有空间上的浪费，可这种简单带给人的是一种无味。他将我引入书房，坐在办公桌后，先是闭上眼扶额叹了口气，沉思半分钟后才睁开那双湛蓝色的眼睛问：“东西呢？”
 
-如果不是如此生硬的语气的话，那双眼睛会好看很多。我这么念着，从口袋里掏出了压印着火漆的信封。
 
-他看信时神情并没什么变化，应该只是普通的讯息吧？可这样我远渡重洋的目的又是什么？
-
-那位先生阅读速度很快。马上，他把那信揉
+王耀似乎是以兴趣经营着这家咖啡店，并不遵循时兴的意式咖啡，而遵循老客的爱好来调整咖啡的配方。他做咖啡自己却很少喝
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2013/06/28/2013-06-28-%E3%80%90%E7%8B%AC%E4%BC%8A%E3%80%91To%20the%20Beginning%E3%80%902013.6%E3%80%91/#more" rel="contents">
+              <a class="btn" href="/2018/09/17/2018-09-17-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%8B%EF%BC%89/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2018/09/15/2018-09-15-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%AD%EF%BC%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/09/15/2018-09-15-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%AD%EF%BC%89/" class="post-title-link" itemprop="url">Psalm·诗篇（中）</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2018-09-15 16:39:00" itemprop="dateCreated datePublished" datetime="2018-09-15T16:39:00+09:00">2018-09-15</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.3k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          没想到我还是没搞完诶嘿！
+
+只是个不想浪费当年手写的稿纸而搞的黑历史展出而已
+
+
+
+
+见面之前王耀与父母又爆发了一次并没有什么意义却两方都无法控制好情绪的争吵。
+
+
+
+
+所有的问题都用“嗯”带过，直到
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2018/09/15/2018-09-15-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%AD%EF%BC%89/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2018/09/13/2018-09-13-Re%EF%BC%9A%E5%86%99%E6%89%8B%E4%B8%93%E7%94%A8zz%E6%8C%91%E6%88%98/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/09/13/2018-09-13-Re%EF%BC%9A%E5%86%99%E6%89%8B%E4%B8%93%E7%94%A8zz%E6%8C%91%E6%88%98/" class="post-title-link" itemprop="url">Re：写手专用zz挑战</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2018-09-13 11:03:55" itemprop="dateCreated datePublished" datetime="2018-09-13T11:03:55+09:00">2018-09-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>632</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          竟然在24小时里满50赞了发生了什么……
+
+那就回答一下啦，其实大部分我记得我以前都说过了
+
+
+
+
+Q1：说出自己的第一篇文
+
+记不清了，小时候写过一些玛丽苏文和神奇的古言
+
+APH这里除了我自己都不
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2018/09/13/2018-09-13-Re%EF%BC%9A%E5%86%99%E6%89%8B%E4%B8%93%E7%94%A8zz%E6%8C%91%E6%88%98/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2018/09/13/2018-09-13-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%8A%EF%BC%89/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/09/13/2018-09-13-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%8A%EF%BC%89/" class="post-title-link" itemprop="url">Psalm·诗篇（上）</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2018-09-13 10:41:06" itemprop="dateCreated datePublished" datetime="2018-09-13T10:41:06+09:00">2018-09-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.6k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          如上篇所说，讲一个五六年前想的韩剧狗血露中故事
+
+只是讲故事而已，会夹杂一些以前写的片段，看着会很跳跃杂乱
+
+这里仅把这篇东西当做黑历史与打字练习给大家嘲笑一下x请不要认真x
+
+基本上是没有可能出现全
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2018/09/13/2018-09-13-%E3%80%90%E9%9C%B2%E4%B8%AD%E3%80%91Psalm%C2%B7%E8%AF%97%E7%AF%87%EF%BC%88%E4%B8%8A%EF%BC%89/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2018/09/07/2018-09-07-%E3%80%90%E8%81%94%E4%BA%94%EF%BC%8F%E9%9C%B2%E4%B8%AD%E3%80%91%E9%98%B3%E5%85%89%E7%9B%B4%E7%94%B7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2018/09/07/2018-09-07-%E3%80%90%E8%81%94%E4%BA%94%EF%BC%8F%E9%9C%B2%E4%B8%AD%E3%80%91%E9%98%B3%E5%85%89%E7%9B%B4%E7%94%B7/" class="post-title-link" itemprop="url">阳光直男</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2018-09-07 16:34:00" itemprop="dateCreated datePublished" datetime="2018-09-07T16:34:00+09:00">2018-09-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>12k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>22 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          主CP大概是露中，以及敲章的米英♀，隐形法英♂
+
+有联五内部友情向描写
+
+OOC是个人主观感受x请默念一遍x
+
+
+
+
+
+
+
+“阿尔弗雷德·F·琼斯，我决定插手你的人生。”
+桌子对面的人十指相扣，用如同
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2018/09/07/2018-09-07-%E3%80%90%E8%81%94%E4%BA%94%EF%BC%8F%E9%9C%B2%E4%B8%AD%E3%80%91%E9%98%B3%E5%85%89%E7%9B%B4%E7%94%B7/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2017/05/08/2017-05-08-%E3%80%90Rabi%E6%9C%9D%E3%80%91%E6%97%A0%E6%A0%87%E9%A2%98%E5%B0%8F%E7%94%9C%E9%A5%BC%E7%AC%AC%E4%B8%89%E5%8F%B7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/05/08/2017-05-08-%E3%80%90Rabi%E6%9C%9D%E3%80%91%E6%97%A0%E6%A0%87%E9%A2%98%E5%B0%8F%E7%94%9C%E9%A5%BC%E7%AC%AC%E4%B8%89%E5%8F%B7/" class="post-title-link" itemprop="url">无标题小甜饼第三号</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2017-05-08 16:14:15" itemprop="dateCreated datePublished" datetime="2017-05-08T16:14:15+09:00">2017-05-08</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.2k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>4 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          前两号欢迎翻阅这个号下的文章！
+
+
+极限一小时写的！其实稍微超了一点大概写了80分钟吧233333
+
+
+复健复健写合志~
+
+
+
+
+3.
+
+即使是偶像们也是有忙里偷闲的时间的。
+
+本就是要在学校学习的年
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2017/05/08/2017-05-08-%E3%80%90Rabi%E6%9C%9D%E3%80%91%E6%97%A0%E6%A0%87%E9%A2%98%E5%B0%8F%E7%94%9C%E9%A5%BC%E7%AC%AC%E4%B8%89%E5%8F%B7/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2017/03/02/2017-03-02-14/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/03/02/2017-03-02-14/" class="post-title-link" itemprop="url">14</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2017-03-02 16:21:30" itemprop="dateCreated datePublished" datetime="2017-03-02T16:21:30+09:00">2017-03-02</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>3.5k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          少女心高糖注意，腐向注意，不负责ooc
+
+游园地卡，没有标题
+可以和之前的连着看不冲突233
+复健中……写的很烂很烂…………而且两周内还要写完稿子………………
+
+
+
+
+2.
+
+“哈……”黎朝阳靠着塑料
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2017/03/02/2017-03-02-14/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2017/02/18/2017-02-18-%E3%80%90ICHU%E3%80%91%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%B2%97%E6%9A%B4%E7%9A%84%E8%A5%BF%E5%B9%BB%E8%AE%BE%E5%AE%9A%E8%84%91%E6%B4%9E%202.0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/02/18/2017-02-18-%E3%80%90ICHU%E3%80%91%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%B2%97%E6%9A%B4%E7%9A%84%E8%A5%BF%E5%B9%BB%E8%AE%BE%E5%AE%9A%E8%84%91%E6%B4%9E%202.0/" class="post-title-link" itemprop="url">一个简单粗暴的西幻设定脑洞 2.0</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2017-02-18 16:05:22" itemprop="dateCreated datePublished" datetime="2017-02-18T16:05:22+09:00">2017-02-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.6k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>5 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          1.0请戳这里
+
+这次补充了Ars天天和炼金的设定~还有一些乱七八糟的，第一次设定时没加上的东西2333
+
+
+主要完善了Lance的角色w不过大家都是很厉害很会打的人啦【不是
+
+
+主线剧情已经差不多设
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2017/02/18/2017-02-18-%E3%80%90ICHU%E3%80%91%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%B2%97%E6%9A%B4%E7%9A%84%E8%A5%BF%E5%B9%BB%E8%AE%BE%E5%AE%9A%E8%84%91%E6%B4%9E%202.0/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2017/01/07/2017-01-07-%E3%80%90Rabi%E6%9C%9D%E3%80%91%E5%A4%AB%E5%A6%BB%E7%9B%B8%E6%80%A7%E4%B8%80%E7%99%BE%E9%97%AE%EF%BC%81/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2017/01/07/2017-01-07-%E3%80%90Rabi%E6%9C%9D%E3%80%91%E5%A4%AB%E5%A6%BB%E7%9B%B8%E6%80%A7%E4%B8%80%E7%99%BE%E9%97%AE%EF%BC%81/" class="post-title-link" itemprop="url">夫妻相性一百问！</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2017-01-07 09:42:14" itemprop="dateCreated datePublished" datetime="2017-01-07T09:42:14+09:00">2017-01-07</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>11k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>20 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          写的时候感觉回到14岁刚入圈到处找文看的时候哈哈哈哈哈
+
+好久没写了就当练手吧2333ooc不负责！
+
+
+
+
+背景是一个大家各自靠在沙发上看着电视的休息日晚上。
+
+
+
+
+Noah：那么今天是为Rabi
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2017/01/07/2017-01-07-%E3%80%90Rabi%E6%9C%9D%E3%80%91%E5%A4%AB%E5%A6%BB%E7%9B%B8%E6%80%A7%E4%B8%80%E7%99%BE%E9%97%AE%EF%BC%81/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xilululu.github.io/2016/09/06/2016-09-06-%E3%80%90ICHU%E3%80%91%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%B2%97%E6%9A%B4%E7%9A%84%E8%A5%BF%E5%B9%BB%E8%AE%BE%E5%AE%9A%E8%84%91%E6%B4%9E%E3%80%90%E5%85%A8%E5%91%98%E4%B8%BBIB%E3%80%91/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.JPG">
+      <meta itemprop="name" content="夕露">
+      <meta itemprop="description" content="I always have another story to tell.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="逐日者">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2016/09/06/2016-09-06-%E3%80%90ICHU%E3%80%91%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%B2%97%E6%9A%B4%E7%9A%84%E8%A5%BF%E5%B9%BB%E8%AE%BE%E5%AE%9A%E8%84%91%E6%B4%9E%E3%80%90%E5%85%A8%E5%91%98%E4%B8%BBIB%E3%80%91/" class="post-title-link" itemprop="url">一个简单粗暴的西幻设定脑洞【全员主IB】</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2016-09-06 02:22:11" itemprop="dateCreated datePublished" datetime="2016-09-06T02:22:11+09:00">2016-09-06</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-02 23:54:21" itemprop="dateModified" datetime="2021-12-02T23:54:21+09:00">2021-12-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Text/" itemprop="url" rel="index"><span itemprop="name">Text</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>2.6k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>5 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          仅记录设定，会不会写看未来脑洞
+还以为我这把年纪了不会再脑这么中二的东西了……
+图设定自@提灯落花。，想看其他人的快去催促她
+在脑到一半时发现与主页曾经推的一个网游设定有部分重合，看来有些属性大家想的
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2016/09/06/2016-09-06-%E3%80%90ICHU%E3%80%91%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%B2%97%E6%9A%B4%E7%9A%84%E8%A5%BF%E5%B9%BB%E8%AE%BE%E5%AE%9A%E8%84%91%E6%B4%9E%E3%80%90%E5%85%A8%E5%91%98%E4%B8%BBIB%E3%80%91/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -262,6 +1245,9 @@
 
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
 
 
 
@@ -328,13 +1314,21 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">108</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">标签</span>
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">16</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -381,19 +1375,19 @@
   <span class="with-love">
     <i class="fas fa-lemon"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">夕露</span>
+  <span class="author" itemprop="copyrightHolder">Xilu</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">2k</span>
+    <span title="站点总字数">368k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">3 分钟</span>
+    <span title="站点阅读时长">11:09</span>
 </div>
 
 <!--
@@ -455,6 +1449,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 
