@@ -307,8 +307,8 @@
       <i class="fa fa-chevron-left"></i> 这是一篇并不想让作者们看见的漫本repo
     </a></div>
       <div class="post-nav-item">
-    <a href="/2015/12/26/2015-12-26-%E8%AE%B0%E4%B8%AA%E8%84%91%E6%B4%9E~/" rel="next" title="记个脑洞~">
-      记个脑洞~ <i class="fa fa-chevron-right"></i>
+    <a href="/2015/12/26/2015-12-26-%E8%AE%B0%E4%B8%AA%E8%84%91%E6%B4%9E/" rel="next" title="记个脑洞">
+      记个脑洞 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -559,26 +559,6 @@
 
   
 
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
-
-<script>
-NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
-    var gitalk = new Gitalk({
-      clientID    : '991443193dc5683b7cda',
-      clientSecret: 'dc4fb03ae30a656a2154a09f94fedd560dfaaba3',
-      repo        : 'Xilululu.github.io',
-      owner       : 'Xilululu',
-      admin       : ['Xilululu'],
-      id          : '31a3e9a642f419b3230c19ba4ff355d2',
-        language: 'zh-CN',
-      distractionFreeMode: true
-    });
-    gitalk.render('gitalk-container');
-  }, window.Gitalk);
-});
-</script>
-
 <script>
   function loadCount() {
     var d = document, s = d.createElement('script');
@@ -608,6 +588,26 @@ NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
       (d.head || d.body).appendChild(s);
     }
   });
+</script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '991443193dc5683b7cda',
+      clientSecret: 'dc4fb03ae30a656a2154a09f94fedd560dfaaba3',
+      repo        : 'Xilululu.github.io',
+      owner       : 'Xilululu',
+      admin       : ['Xilululu'],
+      id          : '31a3e9a642f419b3230c19ba4ff355d2',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
 </script>
 
 </body>
